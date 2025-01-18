@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 100px;
+  color: #30324B;
+}
+
+.App {
+  margin: 0 auto;
+  margin-bottom: 40px;
+  text-align: center;
+  max-width: 1240px;
+}
+
+.app__title {
+  margin: 0;
+  margin-bottom: 2.5rem;
+  font-size: 6rem;
+  font-family: 'Muller Bold', sans-serif;
+}
+
+@media (max-width: 768px) {
+  body {
+    margin: 0;
+    padding: 1.875rem 1rem;
+    color: #30324B;
+  }
+
+  .app__title {
+    margin: 0;
+    margin-bottom: 1.06rem;
+    font-size: 3.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .app__title {
+    margin: 0;
+    margin-bottom: 1.06rem;
+    font-size: 1.5rem;
+  }
+}

@@ -1,0 +1,76 @@
+@media (max-width: 768px) {
+    .todo-form {
+        padding: 0.625rem;
+        margin-bottom: 1.875rem;
+    }
+
+    .todo-form__button {
+        width: 2.375rem;
+        height: 2rem;
+    }
+
+    .todo-form__button svg {
+        width: 1.188rem;
+        height: 1.188rem;
+    }
+    
+    .todo-form__error {
+        font-size: 0.875rem;
+        bottom: -1rem;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .filter-buttons button {
+        padding: 0.5rem 0.938rem;
+        font-size: 0.875rem;
+    }
+
+    .filter-buttons {
+        margin-bottom: 1.25rem;
+        gap: 0.75rem;
+        overflow-x: auto;
+    }
+
+    .todo-list__content {
+        margin-bottom: 0.625rem;
+    }
+
+    .todo-list__day {
+        font-size: 1rem;
+    }
+
+    .todo-list__text {
+        font-size: 0.875rem;
+    }
+
+    .todo-list__edit svg,
+    .todo-list__remove svg {
+        width: 1.25rem;
+        height: 1.25rem;
+    }
+
+    .filter-buttons__no-done {
+        white-space: nowrap;
+    }
+
+    .filter-buttons button:disabled {
+        padding: 0 0.938rem;
+        font-size: 0.875rem;
+    }
+
+    .filter-buttons::-webkit-scrollbar {
+        display: none;
+    }
+
+    .filter-buttons {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+
+    .todo-form__error {
+        font-size: 0.6rem;
+        bottom: -1rem;
+    }
+}
